@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/openapi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pp/cs/sales/catalog/OpenApiGeneratorApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +123,7 @@
       <updated>1773499630126</updated>
       <workItem from="1773499631340" duration="6233000" />
       <workItem from="1773507533831" duration="156000" />
-      <workItem from="1773507722966" duration="7770000" />
+      <workItem from="1773507722966" duration="8445000" />
     </task>
     <servers />
   </component>
