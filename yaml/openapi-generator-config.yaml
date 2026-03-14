@@ -1,0 +1,9 @@
+# Use this config when generating server/client stubs so the package is com.pp.cs.sales.catalog
+# Example (OpenAPI Generator): openapi-generator-cli generate -i products-api.yaml -g spring -o ./out -c openapi-generator-config.yaml
+# Example (Maven): <configFile>yaml/openapi-generator-config.yaml</configFile> or set configOptions to these values
+
+apiPackage: com.pp.cs.sales.catalog
+modelPackage: com.pp.cs.sales.catalog.model
+invokerPackage: com.pp.cs.sales.catalog
+basePackage: com.pp.cs.sales.catalog
+configPackage: com.pp.cs.sales.catalog.config

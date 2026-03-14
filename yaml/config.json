@@ -1,0 +1,5 @@
+{
+  "apiPackage": "com.pp.cs.sales.catalog",
+  "modelPackage": "com.pp.cs.sales.catalog.model",
+  "invokerPackage": "com.pp.cs.sales.catalog"
+}

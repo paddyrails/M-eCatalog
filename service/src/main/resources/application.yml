@@ -1,0 +1,28 @@
+server:
+  port: 9080
+
+spring:
+  cache:
+    type: caffeine
+    cache-names: alerts, imports, exports
+    caffeine:
+      spec: maximumSize=500,expireAfterWrite=10m
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/cs-sales}
+    username: ${DB_USERNAME:cs_sales_user}
+    password: ${DB_PASSWORD:cs_sales_user}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: AlertPool
+      minimum-idle: 2
+      maximum-pool-size: 10
+      idle-timeout: 300000
+      max-lifetime: 600000
+      connection-timeout: 30000
+      leak-detection-threshold: 60000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        generate_statistics: true

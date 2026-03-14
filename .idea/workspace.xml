@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/common/enums/CountryCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/common/enums/TeamCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dao/ProductsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dto/ProductReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dto/ProductRespDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pp/cs/sales/catalog/OpenApiGeneratorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/copilot/create-swagger.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/copilot/create-swagger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml/products-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml/products-api.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/paddy.awarenesstech/learning/spring-boot/apple-cs-sales-repos/M-eCatalog" value="3AwNN4ab5P4LHrO9pCXoshzn3ln" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paddyrails&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/paddyrails/M-eCatalog&quot;,
+    &quot;accountId&quot;: &quot;d5be9d93-9d70-4ae4-80aa-6d28ab004fb5&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3AwNN4ab5P4LHrO9pCXoshzn3ln" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Main.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/paddy.awarenesstech/learning/spring-boot/apple-cs-sales-repos/M-eCatalog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/paddy.awarenesstech/learning/spring-boot/apple-cs-sales-repos/M-eCatalog/service/src/main/java/com/pp/cs/sales/catalog/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pp.cs.sales.catalog.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="" />
+      <created>1773499630126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773499630126</updated>
+      <workItem from="1773499631340" duration="6233000" />
+      <workItem from="1773507533831" duration="156000" />
+      <workItem from="1773507722966" duration="6294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/merchantbank/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

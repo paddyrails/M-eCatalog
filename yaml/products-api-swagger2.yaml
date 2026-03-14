@@ -1,0 +1,56 @@
+swagger: "2.0"
+info:
+  title: M-eCatalog Sales Products API
+  description: |
+    API for retrieving product catalog by country for Apple CS Sales eCatalog.
+  version: 1.0.0
+basePath: /api/sales/catalog/v1
+tags:
+  - name: catalog
+    description: Sales product catalog operations
+paths:
+  /products:
+    get:
+      tags:
+        - catalog
+      summary: Get products by country
+      description: Returns a list of products filtered by country. Response includes Name, Code, Description, and Price.
+      operationId: getProducts
+      parameters:
+        - name: country
+          in: query
+          description: Country code to filter products. Allowed values are us, can, mex.
+          required: true
+          type: string
+          enum:
+            - us
+            - can
+            - mex
+      responses:
+        "200":
+          description: Successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Product"
+        "400":
+          description: Invalid request (e.g. missing country)
+        default:
+          description: Unexpected error
+definitions:
+  Product:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Product name
+      code:
+        type: string
+        description: Product code
+      description:
+        type: string
+        description: Product description
+      price:
+        type: number
+        format: double
+        description: Product price

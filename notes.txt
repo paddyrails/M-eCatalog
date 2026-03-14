@@ -1,0 +1,7 @@
+docker run -d \
+  --name cs-sales \
+  -e POSTGRES_DB=cs-sales \
+  -e POSTGRES_USER=cs_sales_user \
+  -e POSTGRES_PASSWORD=cs_sales_user \
+  -p 5432:5432 \
+  postgres:latest

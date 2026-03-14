@@ -13,7 +13,7 @@ tags:
     description: Sales product catalog operations
 paths:
   /products:
-    get:
+    get: 
       tags:
         - catalog
       summary: Get products by country
