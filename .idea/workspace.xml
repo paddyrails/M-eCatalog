@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/common/enums/CountryCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/common/enums/TeamCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dao/ProductsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dto/ProductReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dto/ProductRespDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/entity/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/openapi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pp/cs/sales/catalog/OpenApiGeneratorApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/copilot/create-swagger.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/copilot/create-swagger.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml/products-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml/products-api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/openapi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pp/cs/sales/catalog/OpenApiGeneratorApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +65,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.catalog [clean,install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -109,6 +99,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -136,7 +131,7 @@
       <updated>1773499630126</updated>
       <workItem from="1773499631340" duration="6233000" />
       <workItem from="1773507533831" duration="156000" />
-      <workItem from="1773507722966" duration="6294000" />
+      <workItem from="1773507722966" duration="7770000" />
     </task>
     <servers />
   </component>
