@@ -1,0 +1,67 @@
+# CS Sales Catalog Service - for local Minikube
+# Build image: from repo root: docker build -t catalog-service:latest -f M-eCatalog/Dockerfile M-eCatalog
+# Load in Minikube: minikube image load catalog-service:latest
+# Deploy: kubectl apply -f M-eCatalog/k8s/catalog-service.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catalog-service
+  namespace: cs-sales
+  labels:
+    app: catalog-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: catalog-service
+  template:
+    metadata:
+      labels:
+        app: catalog-service
+    spec:
+      containers:
+        - name: catalog-service
+          image: catalog-service:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9080
+          env:
+            - name: DB_URL
+              value: "jdbc:postgresql://postgres:5432/cs-sales"
+            - name: DB_USERNAME
+              value: cs_sales_user
+            - name: DB_PASSWORD
+              value: cs_sales_user
+          readinessProbe:
+            tcpSocket:
+              port: 9080
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          livenessProbe:
+            tcpSocket:
+              port: 9080
+            initialDelaySeconds: 30
+            periodSeconds: 30
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: catalog-service
+  namespace: cs-sales
+  labels:
+    app: catalog-service
+spec:
+  selector:
+    app: catalog-service
+  ports:
+    - port: 9080
+      targetPort: 9080
+      name: http
+  type: ClusterIP

@@ -2,13 +2,17 @@ package com.pp.cs.sales.catalog.service;
 
 import com.pp.cs.sales.catalog.common.enums.CountryCode;
 import com.pp.cs.sales.catalog.dao.ProductsDao;
+import com.pp.cs.sales.catalog.dto.CreateProductReqDto;
 import com.pp.cs.sales.catalog.dto.ProductReqDto;
 import com.pp.cs.sales.catalog.dto.ProductRespDto;
 import com.pp.cs.sales.catalog.entity.ProductEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -35,5 +39,21 @@ public class ProductsServiceImpl implements ProductsService{
         }).toList();
 
         return allProductsForCountry;
+    }
+
+    @Override
+    public ProductEntity createProduct(CreateProductReqDto createProductReqDto) {
+        ProductEntity newEntity = new ProductEntity();
+        newEntity.setId(UUID.randomUUID().toString());
+        newEntity.setCreatedAt(LocalDateTime.now());
+        newEntity.setCode(createProductReqDto.getCode());
+        newEntity.setDescription(createProductReqDto.getDescription());
+        newEntity.setMexicoPrice(createProductReqDto.getMexicoPrice());
+        newEntity.setUsPrice(createProductReqDto.getUsPrice());
+        newEntity.setCanadaPrice(createProductReqDto.getCanadaPrice());
+        newEntity.setName(createProductReqDto.getName());
+
+        ProductEntity createdEntity = this.productsDao.save(newEntity);
+        return createdEntity;
     }
 }

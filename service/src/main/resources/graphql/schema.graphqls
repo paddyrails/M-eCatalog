@@ -1,0 +1,18 @@
+enum CountryCode {
+  US
+  CAN
+  MEX
+}
+
+"""
+Product fields exposed to GraphQL clients (trimmed; no internal id or timestamps).
+"""
+type Product {
+  name: String
+  code: String
+  price: Float
+}
+
+type Query {
+  products(country: CountryCode!): [Product!]!
+}

@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="" />
+    <list default="true" id="7850c3e7-d2e6-4b56-9f08-0e02f8c58844" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/databases/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/dto/CreateProductReqDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/graphql/ProductsQueryResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/databases/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/api/ProductsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/pp/cs/sales/catalog/service/ProductsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +104,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/databases" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -123,7 +140,7 @@
       <updated>1773499630126</updated>
       <workItem from="1773499631340" duration="6233000" />
       <workItem from="1773507533831" duration="156000" />
-      <workItem from="1773507722966" duration="8445000" />
+      <workItem from="1773507722966" duration="35642000" />
     </task>
     <servers />
   </component>

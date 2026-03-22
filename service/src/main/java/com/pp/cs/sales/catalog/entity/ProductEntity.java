@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -38,4 +39,10 @@ public class ProductEntity {
 
     @Column(name = "canada_price")
     private BigDecimal canadaPrice;
+
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
+
+    @Column(name="updated_at")
+    private LocalDateTime updatedAt;
 }

@@ -2,6 +2,9 @@ server:
   port: 9080
 
 spring:
+  graphql:
+    graphiql:
+      enabled: true
   cache:
     type: caffeine
     cache-names: alerts, imports, exports

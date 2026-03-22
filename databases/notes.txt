@@ -3,5 +3,9 @@ docker run -d \
   -e POSTGRES_DB=cs-sales \
   -e POSTGRES_USER=cs_sales_user \
   -e POSTGRES_PASSWORD=cs_sales_user \
+  -v $(pwd)/init.sql:/docker-entrypoint-initdb.d/init.sql \
   -p 5432:5432 \
   postgres:latest
+
+
+  docker exec -it cs-sales psql -U cs_sales_user -c "SHOW DATABASES;"
