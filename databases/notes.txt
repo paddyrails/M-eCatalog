@@ -9,3 +9,8 @@ docker run -d \
 
 
   docker exec -it cs-sales psql -U cs_sales_user -c "SHOW DATABASES;"
+
+
+  for i in {1..30}; do curl -s -o /dev/null -w "%{http_code}\n" "http://localhost:9000/api/catalog/api/sales/catalog/v1/products?country=CAN"; done
+
+  kubectl rollout restart deployment/api-gateway -n cs-sales

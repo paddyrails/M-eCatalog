@@ -1,7 +1,22 @@
 server:
   port: 9080
 
+# Microservice-level rate limiting (Bucket4j). Use backend=redis in Kubernetes for shared limits across replicas.
+catalog:
+  rate-limit:
+    enabled: true
+    # local = in-memory per JVM; redis = distributed (set SPRING_DATA_REDIS_* and CATALOG_RATE_LIMIT_BACKEND=redis in k8s)
+    backend: local
+    replenish-per-period: 20
+    refill-period-seconds: 1
+    burst-capacity: 40
+
 spring:
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
   graphql:
     graphiql:
       enabled: true

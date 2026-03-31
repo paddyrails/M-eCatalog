@@ -15,6 +15,18 @@ kubectl create namespace cs-sales
 kubectl apply -n cs-sales -f M-eCatalog/k8s/postgres.yaml
 ```
 
+## 1b. Optional: Redis (testing)
+
+For **API gateway** rate limiting, **catalog-service** microservice rate limiting (Bucket4j), or other dev-only use:
+
+```bash
+kubectl apply -n cs-sales -f M-eCatalog/k8s/redis.yaml
+```
+
+In-cluster host: `redis.cs-sales.svc.cluster.local:6379` (or `redis:6379` from the same namespace).
+
+Deploy Redis **before** `catalog-service` if you rely on catalog’s `CATALOG_RATE_LIMIT_BACKEND=redis` (see `catalog-service.yaml`).
+
 Wait until postgres is ready, then create databases (optional if your app creates them via JPA):
 
 ```bash
@@ -61,6 +73,7 @@ kubectl apply -n cs-sales -f M-eGateway/k8s/api-gateway.yaml
 | Service           | Port |
 |-------------------|------|
 | postgres          | 5432 |
+| redis             | 6379 |
 | catalog-service   | 9080 |
 | offers-service    | 9081 |
 | quotes-service    | 9082 |

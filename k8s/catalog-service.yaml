@@ -32,6 +32,12 @@ spec:
               value: cs_sales_user
             - name: DB_PASSWORD
               value: cs_sales_user
+            - name: CATALOG_RATE_LIMIT_BACKEND
+              value: redis
+            - name: SPRING_DATA_REDIS_HOST
+              value: redis
+            - name: SPRING_DATA_REDIS_PORT
+              value: "6379"
           readinessProbe:
             tcpSocket:
               port: 9080
